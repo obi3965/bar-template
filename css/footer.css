@@ -1,0 +1,138 @@
+#footer-output{
+    height: auto !important;
+    background: #210e01;
+    position: relative;
+    padding-bottom: 90px !important;
+}
+.contact-info h3{
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 12px;
+      font-size: 19px;
+      margin-top: 15px;
+  }
+  .open-hours h3{
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 12px;
+      margin-top: 15px;
+      font-size: 19px;
+  }
+  .address-info p{
+      text-align: center;
+      text-transform: capitalize;
+      letter-spacing: 0.4px;
+      color: #fff;
+      font-size: 15px;
+  }
+  .call-info p{
+      text-align: center;
+      text-transform: capitalize;
+      letter-spacing: 0.4px;
+      color: #fff;
+      font-size: 15px !important;
+  }
+  .contact-reservation p{
+      text-align: center;
+      text-transform: capitalize;
+      letter-spacing: 0.4px;
+      color: #fff;
+      font-size: 15px;
+  }
+  .job p{
+      text-align: center;
+      text-transform: capitalize;
+      letter-spacing: 0.4px;
+      color: #fff;
+      font-size: 15px;
+  }
+   th,tr, table{
+      border: 1px solid white;
+      padding: 8px;
+  }
+  th{
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 15px;
+  }
+   td{
+       padding: 6px;
+       color: #fff;
+       text-transform: capitalize;
+       font-size: 15px;
+   }
+   table{
+       margin: auto;
+   }
+  .copyright{
+      background: #000;
+      padding: 17px;
+      position: absolute;
+      bottom: 0px;
+      right: 0;
+      left: 0;
+  }
+  .copyright p{
+      color: #fff;
+      text-align: center;
+      text-transform: capitalize;
+      letter-spacing: 0.6px;
+      font-size: 15px;
+  }
+  .support{
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 15px;
+  }
+  #support-title{
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 12px;
+      
+      font-size: 19px;
+  }
+  input[type=fullName] {
+      width: 330px;
+      background: transparent;
+      color: white !important;
+      text-transform: uppercase;
+  }
+  input[type=fullName]:focus {
+      background: rgba(226, 123, 5, 0.2);
+      transition: all 1s 0s;
+  }
+  textarea{
+        text-transform: uppercase;
+  }
+  #support{
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+      outline: none;
+  }
+  #support:focus{
+      background: rgba(226, 123, 5, 0.2);
+      transition: all 1s 0s;
+  }
+  #send-it{
+      margin-top: 10px;
+      width: 200px;
+      background: #d35400;
+      padding: 7px;
+      border-radius: 25px;
+      outline: none;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 500;
+  }

@@ -1,0 +1,100 @@
+#events-title h1{
+	padding: 8px;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 40px;
+}
+
+.underline1{
+	border-bottom: 3px solid #e58e26;
+	width: 10%;
+	margin: auto;
+}
+.events-para{
+	width: 72.9%;
+	margin: auto;
+	margin-top: 20px;
+}
+.events-para p{
+	word-break: break-all;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.fa-smile-wink{
+	color: #e58e26;
+}
+.event-2{
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+}
+.event-2 figure{
+      margin-top: 15px !important;
+      height: 70px;
+      width: 70px;
+}
+.event-desc{
+      width: 90%;
+      margin: auto;
+      padding: 10px !important;
+      margin-left: 10px;
+}
+.event-desc h4{
+      text-transform: uppercase;
+      letter-spacing: 1px;
+}
+
+.memory{
+      margin-bottom: 50px;
+}
+.underline{
+      width: 10%;
+      margin: auto;
+      border-bottom: 3px solid #e58e26;
+}
+.memory h1{
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 40px;
+      font-weight: 600;
+}
+.image-1{
+      background-image: url(../img/wine.jpeg);
+      height: 400px;
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+ }
+ .image-title{
+      width: 96%;
+ }
+ .image-title h2{
+      font-weight: 600;
+      
+     text-align: justify;
+     padding-right: 12px;
+ }
+ .image-title i{
+      color: #e58e26;
+ }
+ .image-para p{
+      word-break: keep-all;
+      letter-spacing: 0.4px;
+      font-weight: 400;
+      text-align: justify;
+     padding-right: 12px;
+     font-size: 17px;
+     margin: 10px;
+ }
+ 
+ .btn-primary{
+      margin: 14px;
+      text-transform: capitalize;
+ 
+ }

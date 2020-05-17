@@ -1,0 +1,173 @@
+.contact-banner{
+      background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/wall.jpeg');
+      width: 100%;
+      height: 60vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
+.contact-items{
+ position: absolute;
+ top: 50%;
+ left: 20%;
+}
+.contact-items1 h1{
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-size: 42px;
+      font-weight: 900 !important;
+}
+.contact-items2 p{
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 25px;
+      font-weight: 500;
+}
+.contact-btn{
+      width: 165px;
+      border-radius: 35px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+}
+.contact-span{
+      color: #0078D7;
+}
+
+.contact-details h1{
+      color: #000;
+      text-transform: uppercase;
+      font-size: 40px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top: 25px;
+}
+.contact-underline{
+      border-bottom: 4px solid #0078D7;
+      margin: auto;
+      width: 10%;
+}
+.submitbtn{
+      width: 170px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+}
+    #contatti{
+      letter-spacing: 2px;
+      padding-bottom: 20px;
+      }
+    #contatti a{
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .maps{
+          height: 100% !important;
+    }
+    iframe{
+       height: 400px !important;   
+    }
+    
+    @media (max-width: 575.98px) {
+    
+      
+      #contatti .maps iframe{
+        width: 100%;
+        height: 400px;
+      }
+     }
+    
+    
+    @media (min-width: 576px) {
+    
+       
+    
+       #contatti .maps iframe{
+         width: 100%;
+         height: 400px;
+       }
+     }
+    
+    @media (min-width: 768px) {
+    
+      
+    
+      #contatti .maps iframe{
+        width: 100%;
+        height: 400px;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      
+    
+       #contatti .maps iframe{
+         width: 100%;
+         height: 400px;
+       }
+    }
+    
+    
+    @media(min-width:320px) and (max-width:480px){
+          .contact-banner{
+                height: 60vh !important;
+          }
+      
+          .contact-items{
+            width: 70%;
+            left: 10%;
+            top: 35%;
+            transform: translateY(-10%, -35%);
+          }
+          .contact-items1 h1{
+                font-size: 26px;
+          }
+          .contact-items2 p{
+                font-size: 15px;
+          }
+          .contact-btn{
+            padding: 8px 18px;
+            font-size: 14px;
+           
+      }
+      .contact-details h1{
+            font-size: 26px;
+            font-weight: 700;
+      }
+      .contact-underline{
+            width: 20%;
+      }
+      
+    }
+
+    @media(min-width:767px) and (max-width:1023px){
+          .contact-banner{
+                height: 65vh;
+          }
+          .contact-items{
+                width: 65%;
+                top: 35%;
+                left: 20%;
+                transform: translateY(-20%, -35%);
+          }
+          .contact-items1 h1{
+                font-size: 47px;
+          }
+    }
+
+    @media(min-width:1024px) and (max-width:1366px){
+      .contact-banner{
+            height: 60vh !important;
+      }
+      .contact-items{
+            width: 65%;
+            top: 45%;
+            left: 20%;
+            transform: translateY(-20%, -45%);
+      }
+      .contact-items1 h1{
+            font-size: 47px;
+      }
+}

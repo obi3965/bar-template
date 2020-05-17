@@ -1,0 +1,128 @@
+
+body{
+      margin: 0;
+      padding: 0;
+      
+}
+
+
+.banner-image{
+      background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+       url('https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      height: 100vh !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      position: relative !important;
+      width: 100% !important;
+      
+}
+.banner-title{
+      position: absolute !important;
+      top: 45%;
+      left: 10%;
+      width: 50%;
+      transform: translateY(-20%, -50%);
+}
+.banner-span{
+      color:#0078D7 ;
+}
+.banner-title h1{
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: 1px;
+      font-size: 45px;
+}
+.banner-title p{
+      font-weight: 500;
+      color: white;
+      word-break: keep-all;
+      font-size: 23px;
+      letter-spacing: 1px;
+     
+}
+.banner-btn{
+      padding: 12px 33px;
+      border-radius: 35px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+}
+
+@media(min-width:320px) and (max-width: 480px){
+      .banner-image{
+            height: 65vh !important;
+            width: 100% !important;
+            
+      } 
+      .banner-title{
+            width: 70%;
+            left: 10%;
+            top: 35%;
+            transform: translateY(-10%, -35%);
+      }
+     
+      .banner-title h1{
+            font-size: 28px;
+      }
+      .banner-title p{ 
+            font-size: 15px;             
+      }
+      .banner-btn{
+            padding: 8px 18px;
+            font-size: 14px;
+           
+      }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+      .banner-image{
+            height: 60vh !important;
+            width: 100% !important;
+      }
+      .banner-title{
+            width: 70%;
+      }
+      
+      .banner-title h1{
+            font-size: 27px;
+      }
+      .banner-title p{ 
+            font-size: 15px;             
+      }
+      .banner-btn{
+            padding: 12px 28px;
+            font-size: 14px;
+            /* margin-top: -2px !important; */
+      }
+} 
+
+
+
+@media (min-width: 767px) and (max-width: 1023px){
+      .banner-image{
+            height: 60vh !important;
+            width: 100% !important;
+      }
+      .banner-title{
+            top: 30%;
+            left: 20%;
+            transform: translateY(-20%, -50%);
+      }
+      .banner-title{
+            width: 60%;
+      }
+      .banner-title h1{
+            font-size: 47px;
+      }
+} 
+
+@media (min-width: 1024px) and (max-width: 1366px){
+      .banner-image{
+            height: 50vh !important;
+            width: 100% !important;
+      }
+} 
+
+
+

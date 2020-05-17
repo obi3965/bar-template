@@ -1,0 +1,243 @@
+.events-page h1{
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      font-size: 40px;
+      margin-top: 25px;
+  }
+  .events-page-para{
+      width: 73%;
+      letter-spacing: 0.5px;
+      margin: 12px auto;
+      word-break: keep-all;
+      font-weight: 400;
+      font-size: 17.6px;
+      text-align: justify;
+  }
+
+  #whisky{
+      background: rgb(238, 236, 236);
+      padding: 12px;
+  }
+  .whisky-title h3{
+      margin-left: 30px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      color: #000;
+      font-size: 30px;
+  }
+  .whisky-image img{
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .whisky-para p{
+      text-align: justify;
+      word-break: keep-all;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+  }
+  #sport{
+      margin-top: 40px;
+      padding: 12px;
+  }
+  .sport-image img{
+      width: 100%;
+      height: 100%;
+      margin-top: 2%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .sport h3{
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: #000;
+      font-size: 30px;
+  }
+  .sport-para p{
+      text-align: justify;
+      word-break: keep-all;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+  }
+  
+  .music h3{
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: #000;
+      font-size: 30px;
+  }
+  #music{
+      background: rgb(238, 236, 236);
+      padding: 12px;
+  }
+  .music-image img{
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .music-para p{
+      text-align: justify;
+      word-break: keep-all;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+  }
+  
+  #pong{
+      margin-top: 3%;
+      padding: 12px;
+  }
+  .pong h3{
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: #000;
+      font-size: 30px;
+  }
+  
+  .pong-para p{
+      text-align: justify;
+      word-break: keep-all;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+  }
+  .pong-image img{
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+  #loan{
+      background: rgb(238, 236, 236);
+      padding: 12px;
+      margin-top: 3%;
+      padding-bottom: 30px;
+  }
+  #loan h3{
+      color: #000;
+      letter-spacing: 1px;
+      font-weight: 600;
+      font-size: 30px;
+      text-transform: uppercase;
+  }
+  .loan-image img{
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-top: 3%;
+  }
+  .loan-para p{
+      text-align: justify;
+      word-break: keep-all;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+  }
+  
+  
+  #paw{
+      margin-top: 3%;
+      padding: 12px;
+      padding-bottom: 30px;
+  }
+  
+  .paw h3{ text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: #000;
+      font-size: 30px;
+  }
+  .paw-para p{
+      text-align: justify;
+      word-break: keep-all;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+  }
+  .paw-image img{
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  @media(min-width:320px) and (max-width:480px){
+      .events-page h1{
+          font-size: 26px;
+      }
+      .events-page-para p{
+          font-size: 15px;
+      }
+      .whisky-title h3, .music h3{
+          font-size: 25px;
+          text-align: center;
+      }
+      .whisky-para p, .sport-para p, .music-para p, 
+      .pong-para p, .loan-para p, .paw-para p{
+          font-size: 15px;
+      }
+      .sport h3, .pong h3, .paw h3{
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+      }
+      .loan h3{
+          font-size: 25px !important;
+          text-align: center;
+      }
+  }
+
+  @media(min-width:767px) and (max-width:1023px){
+    .events-page h1{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .events-page-para p{
+        font-size: 17px;
+    }
+    .whisky-image, .sport-image, .music-image, 
+    .pong-image, .loan-image, .paw-image{
+        height: 100%;
+        width: auto;
+    }
+    .whisky-image img, .music-image img, .loan-image img{
+        height: 330px;
+        width: 350px !important;
+        margin-top: 20px;
+    }
+    .sport-image img{
+        height: 330px;
+        width: 350px !important;
+        margin-top: 60px;
+    }
+    .pong-image img{
+        height: 330px;
+        width: 350px !important;
+        margin-top: 90px;
+        
+    }
+    .paw-image img{
+        height: 330px;
+        width: 350px !important;
+        margin-top: 60px;
+        
+    }
+    .whisky-title h3, .music h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    .whisky-para p, .sport-para p, .music-para p, 
+    .pong-para p, .loan-para p, .paw-para p{
+        font-size: 15px;
+    }
+    .sport h3, .pong h3, .paw h3{
+      font-size: 25px;
+      margin-top: 15px;
+      text-align: center;
+    }
+    .loan h3{
+        font-size: 25px !important;
+        text-align: center;
+    }
+}
+
+  

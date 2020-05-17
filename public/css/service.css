@@ -1,0 +1,225 @@
+#events-title h1{
+	padding: 8px;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 40px;
+}
+
+.underline1{
+	border-bottom: 4px solid #0078D7;
+	width: 10%;
+	margin: auto;
+}
+.events-para{
+	width: 72.7%;
+	margin: auto;
+	margin-top: 20px;
+}
+.events-para p{
+	word-break: break-all;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.fa-smile-wink{
+	color: #0078D7;
+}
+.event-2{
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+}
+.event-2 figure{
+      margin-top: 15px !important;
+      height: 70px;
+      width: 70px;
+}
+.event-desc{
+      width: 90%;
+      margin: auto;
+      padding: 10px !important;
+      margin-left: 10px;
+}
+.event-desc h4{
+      text-transform: uppercase;
+      letter-spacing: 1px;
+}
+
+.memory{
+      margin-bottom: 50px;
+}
+.underline{
+      width: 10%;
+      margin: auto;
+      border-bottom: 4px solid #0078D7 !important;
+}
+.memory h1{
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 40px;
+      font-weight: 600;
+}
+.image-1{
+      background-image: url(../img/wine.jpeg);
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      height: 400px;
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+ }
+ .image-title{
+      width: 96%;
+ }
+ .image-title h2{
+      font-weight: 600;
+      
+     text-align: justify;
+     padding-right: 12px;
+ }
+ .image-title i{
+      color: #0078D7;
+ }
+ .image-para p{
+      word-break: keep-all;
+      letter-spacing: 0.4px;
+      font-weight: 400;
+      text-align: justify;
+     padding-right: 12px;
+     font-size: 17px;
+     margin: 10px;
+ }
+ 
+ .btn-primary{
+      margin: 14px;
+      text-transform: capitalize;
+ 
+ }
+ .btn-primary i{
+       color: #fff;
+ }
+
+ @media(min-width:320px) and (max-width:480px){
+       #events-title h1{
+             font-size: 22px;
+             font-weight: 700;
+       }
+       .underline1{
+             width: 20%;
+       }
+       .events-para{
+             width: 84%;
+       }
+       .events-para p{
+             font-size: 15.4px;
+             text-align: justify;
+             word-break: keep-all;
+             font-weight: 600;
+       }
+       .event-desc h4{
+             font-size: 18px;
+       }
+       .event-2 figure img{
+             height: 60px;
+             width: 60px;
+       }
+       .event-desc p{
+             font-size: 14px;
+             /* text-align: justify; */
+       }
+       .memory h1{
+             font-size: 22px;
+             font-weight: 700;
+       }
+       .underline{
+             width: 20%;
+       }
+       .memory{
+             margin-bottom: 20px;
+       }
+       .image-1{
+             height: 240px !important;
+             width: 100% !important;
+       }
+       .image-title h2{
+             font-size: 19.2px;
+             text-align: center !important;
+             margin-top: 12px;
+       }
+       .image-para{
+             width: 100%;
+       }
+       .image-para p{
+             font-size: 14px !important;
+             
+       }
+ }
+
+ @media(min-width:767px) and (max-width:1023px){
+      #events-title h1{
+            font-size: 26px;
+            font-weight: 700;
+      }
+      .underline1{
+            width: 15%;
+      }
+      .events-para{
+            width: 84%;
+      }
+      .events-para p{
+            font-size: 15.4px;
+            text-align: justify;
+            word-break: keep-all;
+            font-weight: 600;
+      }
+      .event-desc h4{
+            font-size: 12px;
+            font-weight: 700;
+            width: 100%;
+            text-align: center;
+
+      }
+      .event-desc{
+            width: 100% !important;
+      }
+      .event-2 figure img{
+            height: 40px;
+            width: 40px;
+      }
+      .event-desc p{
+            font-size: 12px;
+            word-break: break-all;
+      }
+      .memory h1{
+            font-size: 22px;
+            font-weight: 700;
+      }
+      .underline{
+            width: 20%;
+      }
+      .memory{
+            margin-bottom: 20px;
+      }
+      .image-1{
+            height: 340px !important;
+            width: 100% !important;
+      }
+      .image-title h2{
+            font-size: 19px;
+            text-align: center !important;
+            margin-top: 12px;
+      }
+      .image-para{
+            width: 100%;
+      }
+      .image-para p{
+            font-size: 14px !important;
+            
+      }
+}

@@ -1,0 +1,90 @@
+/****style images****/
+.wall-image{
+      background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+      url('../img/wall.jpeg');
+     height: auto;
+     width: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: 5%;
+     padding-bottom: 55px !important;
+     margin: auto;
+ }
+ .gallary-title h2{
+     color: white;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: 600;
+     text-align: center;
+     margin-bottom: -16px;
+     padding-top: 15px;
+     font-size: 40px;
+ }
+ .underline-title{
+     border-bottom: 4px solid #0078D7;
+     width: 12%;
+     margin: auto;
+     margin-top: 20px;
+ }
+ .image-gallary{
+     width: 100%;
+ }
+ 
+ 
+ .image1 img{
+      width: 100%;
+      height: 100%;
+      transition: 0.75s;
+ }
+ .image1:hover img{
+      transform: scale(1.2);
+      cursor: pointer;
+ }
+ .image1 img{
+     width: 100%;
+     height: 100%;
+ }
+ .image1{
+      width: 100%;
+      height: 215px;
+      overflow: hidden;     
+ }
+
+ 
+    
+    
+
+
+
+@media(min-width:320px) and (max-width:480px){
+    .gallary-title h2{
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .underline-title{
+        width: 20%;
+    }
+   
+
+ 
+    
+}
+
+
+@media(min-width:767px) and (max-width:1023px){
+    .gallary-title h2{
+        font-weight: 700;
+       
+    }
+    
+    .image1 img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+}
+
+
+

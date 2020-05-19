@@ -26,7 +26,7 @@ app.use(morgan("dev",{
   app.locals.dateAndTime = require("date-and-time");
   
   
-  app.use('/page', mainRoutes);
+  app.use('/', mainRoutes);
 
 // catch 404 and forward to error handler
 // app.use(function(req, res, next) {
@@ -46,7 +46,7 @@ app.use(morgan("dev",{
 //   });
 // });
 
-let port = process.env.PORT || 1130;
+let port = process.env.PORT || 3000;
 app.listen(port, error => {
     if (error) console.log(error);
     console.log(
